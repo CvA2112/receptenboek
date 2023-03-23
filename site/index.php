@@ -17,16 +17,27 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <header>
     <h1>Welkom bij receptenboek èpicer!</h1>
-    <div>
-        <a href="Bigos.php"><img id= "fotos"; src="images/Bigos.jpg" alt="img"> </a>  
-        <a href="paczki.php"><img id= "fotos"; src="images/paczki.jpg" alt="img"> </a>
-        <a href="placki.php"><img id= "fotos"; src="images/placki nogwat nogwat.jpg" alt="img"> </a>
-        <a href="zurek.php"><img id= "fotos"; src="images/zurek.jpg" alt="img"> </a>  
-        <a href="pierogi.php"><img id= "fotos"; src="images/pierogi.png" alt="img"> </a>  
+    <p> In deze website vindt u meerdere recepten voor de Poolse keuken. Klik op de fotos voor meer informatie over elk recept!</p>
+    <div id="fotos";>
+        <a href="Bigos.php"><img src="images/Bigos.jpg" alt="img"> </a>  
+        <a href="paczki.php"><img src="images/paczki.jpg" alt="img"> </a>
+        <a href="placki.php"><img src="images/placki nogwat nogwat.jpg" alt="img"> </a>
+        <a href="zurek.php"><img src="images/zurek.jpg" alt="img"> </a>  
+        <a href="pierogi.php"><img src="images/pierogi.png" alt="img"> </a>  
     </div>
 </header>
 
-    <p> In deze website vindt u meerdere recepten voor de Poolse keuken. Klik op de fotos voor meer informatie over elk recept!</p>
+<nav>
+
+</nav>
+
+<body>
+    
+</body>
+
+<footer>
+    
+</footer>
 
 
 </body>

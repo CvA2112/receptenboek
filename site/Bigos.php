@@ -14,3 +14,14 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <title>Receptenboek</title>
     <link href="style.css">
 </head>
+
+<header>
+    <h1>Dit is het recept voor Bigos</h1>
+</header>
+
+<body>
+    
+</body>
+<footer>
+
+</footer>
