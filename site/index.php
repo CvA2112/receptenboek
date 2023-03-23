@@ -12,12 +12,19 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receptenboek</title>
-    <link href="style.css">
+    <a href="style.css"></a>
 </head>
 
 <header>
+    <div class="topnav">
+      <a class="active" href="index.php">Home</a>
+      <a href="recepten">Alle recepten</a>
+      <a href="specials.php">Specials</a>
+    </div>  
+
     <h1>Welkom bij receptenboek èpicer!</h1>
     <p> In deze website vindt u meerdere recepten voor de Poolse keuken. Klik op de fotos voor meer informatie over elk recept!</p>
+
     <div id="fotos";>
         <a href="Bigos.php"><img src="images/Bigos.jpg" alt="img"> </a>  
         <a href="paczki.php"><img src="images/paczki.jpg" alt="img"> </a>
@@ -27,16 +34,12 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </div>
 </header>
 
-<nav>
-
-</nav>
-
 <body>
     
 </body>
 
 <footer>
-    
+
 </footer>
 
 
